@@ -24,7 +24,11 @@ fi
 
 # pull fabric images
 ARCH=`uname -m | sed 's|i686|x86|' | sed 's|x64|x86_64|'`
+<<<<<<< HEAD
 BASEIMAGE_RELEASE=0.4.6
+=======
+BASEIMAGE_RELEASE=0.3.2
+>>>>>>> d9606e5aceb4f46d2591843a20a92f0e94c678e5
 BASE_VERSION=1.1.0
 PROJECT_VERSION=1.1.0
 IMG_TAG=1.1.0

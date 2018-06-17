@@ -20,7 +20,11 @@ HLF_VERSION = '1.1.0'
 # vSphere requires this
 ARCH = 'x86_64'
 VERSION = '1.1.0'
+<<<<<<< HEAD
 BASEIMAGE_RELEASE = '0.4.6'
+=======
+BASEIMAGE_RELEASE = '0.3.2'
+>>>>>>> d9606e5aceb4f46d2591843a20a92f0e94c678e5
 FABRIC_IMAGE_FULL = 'hyperledger/fabric-{}:{}-{}'
 FABRIC_IMAGE_TAG = 'hyperledger/fabric-{}:{}'
 FABRIC_IMAGE = 'hyperledger/fabric-{}'
