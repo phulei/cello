@@ -245,7 +245,7 @@ as a reference and see example values for these fields:
 GIT_URL: hyperledger fabric git project url. should be always
     "http://gerrit.hyperledger.org/r/fabric"
 GERRIT_REFSPEC: ref spec when build a specifc patch set. for example, it
-    can be "refs/tags/v1.0.5"
+    can be "refs/tags/v1.1.0"
 fabric: This section define hyperledger fabric network layout
 ssh_user: The user name to be used to log in to the remote servers
 peer_db: The peer database type, possible values are CouchDB and leveldb
