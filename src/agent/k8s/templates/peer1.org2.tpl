@@ -17,11 +17,11 @@ spec:
     spec:
       containers:
       - name: couchdb
-        image: hyperledger/fabric-couchdb:x86_64-1.0.5
+        image: hyperledger/fabric-couchdb:x86_64-1.1.0
         ports:
          - containerPort: 5984
       - name: peer1-org2
-        image: hyperledger/fabric-peer:x86_64-1.0.5
+        image: hyperledger/fabric-peer:x86_64-1.1.0
         env:
         - name: CORE_PEER_ADDRESSAUTODETECT
           value: "true"

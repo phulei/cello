@@ -8,10 +8,10 @@
 ARCH=x86_64
 
 # for the base images, including baseimage, baseos, couchdb, kafka, zookeeper
-BASE_IMG_TAG=0.3.2
+BASE_IMG_TAG=0.4.6
 
 # For fabric images, including peer, orderer, ca
-FABRIC_IMG_TAG=1.0.5
+FABRIC_IMG_TAG=1.1.0
 
 echo "Downloading images from DockerHub... need a while"
 

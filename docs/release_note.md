@@ -56,7 +56,7 @@ none
 * Blockchain-Explorer support;
 * Enable user dashboard, can apply chain, query block/transaction, upload/invoke/query chain code;
 * Support v3 docker compose format;
-* Support fabric 1.0.5;
+* Support fabric 1.1.0;
 * Support fabric with kafaka mode;
 * Enable creating/hosting service images at dockerhub;
 
